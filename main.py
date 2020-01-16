@@ -1,0 +1,6 @@
+R = float(input("Enter the radius of the cone"))
+H = float(input("Enter the height"))
+Vol = (3.1415*R**2)*(H*3)
+print("The volume is:",Vol)
+Vol = round(Vol,3)
+print("The volume rounded is:",Vol)
